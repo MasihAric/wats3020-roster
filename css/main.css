@@ -1,10 +1,10 @@
 /* Styles for WATS 3020 Roster Project */
 
 button {
-    background: royalblue;
+    background: rgb(1, 60, 252);
     padding: 0.2rem;
     border: 1px rgba(255,255,255,0) solid;
-    color: #fff;
+    color: rgb(253, 250, 250);
     cursor: pointer;
 }
 button:hover, button:focus {
@@ -38,6 +38,8 @@ thead tr th{
 }
 h1.course-title {
     margin-top: 0;
+    text-align: center;
+    font-style: italic;
 }
 .course-description {
     font-weight: 300;
@@ -53,6 +55,6 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 html {
-    background: royalblue;
+    background: rgb(91, 98, 119);
     padding: 0;
 }
